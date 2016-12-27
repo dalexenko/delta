@@ -1,0 +1,248 @@
+﻿BODY 		{ scrollbar-base-color: #999999; }
+input
+{ border: 1px solid White;  background-color: #CC0000;  color: White;  height: 16px;  font-weight: bold;  font-size: 10px;}
+.b{ line-height: 10px; cursor: hand;   }
+.a{ line-height: 13px;    background-color: White;  color: #CC0000;    }
+.c{ border: 2px inset;  background-color: White;  color: Black;  height: 20px;    }
+a:link		{ color: #CC0000; text-decoration: none }
+
+a:visited	{ color: #CC0000; text-decoration: none }
+
+a:active	{ color: #CC0000; text-decoration: none }
+
+a:hover		{ color: #FF6600; text-decoration: none }
+
+
+ /* THE NEXT LINE CONTROLS THE DEFAULT FONT SIZE */
+
+TABLE		{ COLOR: #333333; FONT: 11px geneva, verdana, arial, sans-serif; font-weight: normal }
+
+.title 		{ COLOR: #CC0000; FONT: 14px verdana, arial, sans-serif; font-weight: bold }
+
+.subtitle 	{ COLOR: #339999; FONT: 13px verdana, arial, sans-serif; font-weight: bold }
+
+.phonetitle 	{ color: #339999; font: 12px verdana, arial, sans-serif; font-weight: bold }
+
+.copytext 	{ COLOR: #666666; FONT: 10px arial, verdana, sans-serif; font-weight: bold }
+
+.quotechoice 	{ COLOR: #003333 }
+
+.sidetexttitle 	{ COLOR: #000000; FONT: 11px verdana, arial, sans-serif; font-weight: bold }
+
+.sidetext	{ color: #FFFFFF; FONT: 12px arial, verdana, sans-serif;
+		  font-weight: normal;
+		  border: #FFFFFF 1px solid }
+
+.just 		{ text-align: justify}
+
+.faq 		{ line-height: 16px }
+
+
+
+
+.headermenu	{ color: #FFFFFF; font: 10px verdana, arial, sans-serif; font-weight: bold; line-height: 20px;     }
+
+
+.menu-location  { position:absolute; visibility:show; left:0px; top:0px; z-index:2 }
+
+
+#date-location { left: 160px; POSITION: absolute; TOP: 113px }
+
+
+.button { 	background-image: url("picts/button.gif");
+		background-color:#FFFFFF;
+		FONT-FAMILY: arial, verdana, helvetica, sans;
+		color: #367BA7;
+		font-size: 8pt;
+		height: 20px;
+		cursor:hand;
+		font-weight: bold;
+		text-align: center;
+		BORDER: #367BA7 1px solid }
+
+.buttonon { 	background-image: url("picts/buttonon.gif");
+		background-color:#F0F0F0;
+		FONT-FAMILY: arial, verdana, helvetica, sans;
+		color: #000000;
+		font-size: 8pt;
+		height: 20px;
+		cursor:hand;
+		font-weight: bold;
+		text-align: center;
+		BORDER: #000000 1px solid }
+
+
+.shadeform	{ FONT: 13px arial, verdana, sans-serif;
+		background-image: url("picts/shadeform.gif");
+		text-align: left;
+		WIDTH: 200PX;
+		BORDER: #666666 1px solid}
+
+.quoteform	{ FONT: 13px arial, verdana, sans-serif;
+		background-image: url("picts/shadeform.gif");
+		text-align: left;
+		BORDER: #000066 1px solid}
+
+.textarea	{ FONT: 13px arial, verdana, sans-serif;
+		background-image: url("picts/shadeform.gif");
+		text-align: left;
+		WIDTH: 250PX;
+		HEIGHT: 125PX;
+		BORDER: #999999 2px solid}
+
+.dropdown 	{ COLOR: #333333;
+		WIDTH: 200PX;
+		FONT: 11px geneva, verdana, arial, sans-serif }
+
+
+.searchbutton {	background-image: url("picts/button.gif");
+		background-color:#F0F0F0;
+		FONT-FAMILY: arial, verdana, helvetica, sans;
+		color: #000000;
+		font-size: 8pt;
+		height: 20px;
+		width: 35px;
+		cursor:hand;
+		font-weight: bold;
+		text-align: center;
+		BORDER: #000000 1px solid }
+
+.searchform 	{ background-image: url("picts/shadeform.gif");
+		  WIDTH: 85PX;
+		  HEIGHT: 20PX; FONT: 11px arial, verdana, sans-serif;
+		  BORDER: #000000 1px solid }
+
+
+.searchdrop	{ WIDTH: 60PX; HEIGHT: 20PX; FONT: 11px arial, georgia, "Times New Roman", sans-serif }
+
+
+
+
+ /* START CODE FOR THE GALLERY */
+
+
+
+.picturetitle 	{ COLOR: #000000; FONT: 11px verdana, arial, sans-serif; font-weight: bold }
+
+.picturedesc 	{ COLOR: #7D8FB1; FONT: 11px arial, verdana, sans-serif; font-weight: bold }
+
+
+.button-popups  { background-image: url("picts/button.gif");
+		background-color:#FFFFFF;
+		FONT-FAMILY: arial, verdana, helvetica, sans;
+		color: #367BA7;
+		font-size: 8pt;
+		height: 20px;
+		cursor:hand;
+		font-weight: bold;
+		text-align: center;
+		BORDER: #367BA7 1px solid }
+
+.buttonon-popups { background-image: url("picts/buttonon.gif");
+		background-color:#F0F0F0;
+		FONT-FAMILY: arial, verdana, helvetica, sans;
+		color: #000000;
+		font-size: 8pt;
+		height: 20px;
+		cursor:hand;
+		font-weight: bold;
+		text-align: center;
+		BORDER: #000000 1px solid }
+
+
+.rollover 	{ background-color: #7D8FB1 }
+
+.rolloveron 	{ background-color: #000000; Filter: Alpha(Opacity=60) }
+
+.gallery_nav	{ FONT: 12px arial, verdana, sans-serif;
+		  font-weight: bold;
+		  background-image: url("picts/background_gallery_nav.gif") }
+
+.cartamount	{ FONT: 13px arial, verdana, sans-serif;
+		  background-image: url("picts/cart-shadeform.gif");
+		  text-align: center;
+		  WIDTH: 20PX;
+		  BORDER: #000000 1px solid}
+
+.price	 	{ COLOR: #FF6600; FONT: 12px verdana, arial, sans-serif; font-weight: bold }
+
+
+
+
+ /* START THE CODE FOR THE VERTICAL MENUS */
+
+
+#menulocation 	{ LEFT: 0px; WIDTH: 150px; POSITION: absolute; TOP: 131px; padding:0px 0px; white-space:nowrap; }
+
+
+.menu		{ font-family: arial, verdana, helvetica, sans;
+		  font-size: 9pt;
+		  height: 25px;
+		  width: 150px;
+		  cursor:hand;
+		  font-weight: bold;
+		  text-indent: 8px;
+		  line-height: 16pt;
+		  text-align: left;
+		  display: block;
+		  border: #FFFFFF 0px solid; }
+
+
+a.menu:link 	{ color: #FFFFFF;
+		  background: Black;
+		  background-image: url("picts/menu.gif");}
+
+
+a.menu:visited 	{ color: #FFFFFF;
+		  background: Black;
+		  background-image: url("picts/menu.gif");}
+
+
+a.menu:active 	{ background: Black;
+		  background-image: url("picts/menu.gif");
+		  color: #FFFFFF; }
+
+
+a.menu:hover 	{ background:#FFFFFF;
+		  background-image: url("picts/menuon.gif");
+		  color: #CC0000; }
+
+
+
+ /* START THE CODE FOR THE HORIZONTAL MENUS */
+
+
+.menuhorz	{ font-family: arial, verdana, helvetica, sans;
+		  font-size: 7pt;
+		  height: 18px;
+		  cursor:hand;
+		  font-weight: bold;
+		  line-height: 11pt;
+		  padding-left: 9px;
+		  padding-right: 9px;
+		  text-align: center;
+		  display: block;
+		  border: #FFFFFF 1px solid; }
+
+
+a.menuhorz:link { 
+		  background-color: #CC0000;
+		  color: #FFFFFF; }
+
+
+a.menuhorz:visited { 
+		  background-color: #CC0000;
+		  color: #FFFFFF; }
+
+
+a.menuhorz:active {  
+		   background-color: #CC0000;
+		   border: #000000 1px solid;
+		   color: #FFFFFF; }
+
+
+a.menuhorz:hover { 
+		  background-color:#FFFFFF;
+		   border: #FFFFFF 1px solid;
+		  color: #CC0000; }
+
